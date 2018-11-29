@@ -1,0 +1,57 @@
+body{
+	background-color: grey;
+}
+main{
+	background-color: lightgrey;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+header{
+	background-color: white;
+	overflow: auto;
+}
+header h1{
+	display: inline-block;
+	padding: 10px;
+	border: 3px	solid grey;
+	margin-left: 20px;
+	font-size: 2em;
+	box-shadow: 10px 10px 5px 5px darkgrey;
+}
+header figure{
+	float: right;
+	margin: 0;
+}
+nav ul{
+	padding-left: 0;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	display: block;
+	padding: 10px 45px;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	font-size: 1.5em;
+}
+nav ul li a:hover{
+	color: white;
+	background-color: black;
+}
+figure{
+	margin: 0;
+}
+figure image{
+	width: 100%;
+}
+section article{
+	display: inline-block;
+	width: 50%;
+}
+section aside{
+	float: right;
+	width: 300px;
+}
